@@ -2,7 +2,7 @@
 This is a genetic algorithm that uses last years hockey stats to learn how to draft a winning fantasy hockey league team.
 The goal of this project is to help me gain insight into how I should be selecting players, and what I should be looking for in those players.
 
-My specific league uses the following stat distribution:
+My specific league uses the following point distribution:
 Goals       6
 Assists     4
 Power Play Points   2
