@@ -22,3 +22,5 @@ My theory is that if I create a mock draft with managers who learn how to weight
 then it will give me insight into whether specific stats are overweighted or underweighted currently how the league weights them.
 
 I also could use the help in my league, as of Nov 8 2023 I have 1 win and 2 losses.
+
+Hockey Statistics provided by Quant Hockey at quanthockey.com
