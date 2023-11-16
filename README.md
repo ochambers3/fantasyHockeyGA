@@ -24,3 +24,11 @@ then it will give me insight into whether specific stats are overweighted or und
 I also could use the help in my league, as of Nov 8 2023 I have 1 win and 2 losses.
 
 Hockey Statistics provided by Quant Hockey at quanthockey.com
+
+Successfully ran the first implementation with 6 hockey managers
+Conclusion:
+My Genetic Algorithm learned to weight assists as the most important stat and short handed goals as the least important.
+After normalizing the weights and comparing them to that of my league, I discovered that (according to my GA) my league 
+over-weights goals by 53%. Assists were underestimated the most at 34%, and power play points were weighted most closely to 
+the found value at an underestimation of 3%. As of Nov 16, 2023 I am 1-4 in my league. I will change my team to find players who 
+get more assists and see if that helps me win more weeks.
