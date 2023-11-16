@@ -8,12 +8,19 @@ class Manager:
                 }
         self.roster = {} 
         self.fitness = 0
+        self.rank = 0
+
+    def setRank(self, rank):
+        self.rank = rank
 
     def getWeight(self, pos):
         return self.weights[pos]
 
     def updateWeight(self, pos, newVal):
         self.weights[pos] = newVal
+
+    def mutateWeight(self, pos, mutation):
+        self.weights[pos] += mutation
 
     def setRoster(self, name):
         self.roster[name] = 1
@@ -39,3 +46,7 @@ class Manager:
 
     def setD(self):
        self.positions['D'] += 1
+
+    def resetMan(self):
+        self.positions = {'F': 0, 'D': 0}
+        self.roster = {}
